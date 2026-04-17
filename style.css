@@ -1,0 +1,75 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f7ff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Navbar */
+nav {
+  background: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Articles */
+.article-list {
+  padding: 20px;
+}
+
+.article {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #4facfe;
+  color: white;
+  margin-top: 20px;
+}
