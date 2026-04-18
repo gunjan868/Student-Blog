@@ -5,7 +5,6 @@ body {
   color: #333;
 }
 
-/* Header */
 header {
   background: linear-gradient(90deg, #4facfe, #00f2fe);
   color: white;
@@ -13,7 +12,6 @@ header {
   padding: 30px;
 }
 
-/* Navbar */
 nav {
   background: white;
   text-align: center;
@@ -27,19 +25,21 @@ nav a {
   font-weight: bold;
 }
 
-/* Hero */
+nav a:hover {
+  color: #ff6600;
+}
+
 .hero {
   text-align: center;
   padding: 40px;
   background: #eaeef3;
 }
 
-/* Cards */
 .cards {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .card {
@@ -62,7 +62,6 @@ nav a {
   display: block;
 }
 
-/* Articles */
 .article-list {
   padding: 20px;
 }
@@ -76,7 +75,23 @@ nav a {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Footer */
+.article a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.article:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
 footer {
   text-align: center;
   padding: 20px;
