@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact Form</title>
+
   <style>
     body {
       font-family: Arial;
@@ -61,16 +62,16 @@
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script>
-    (function(){
-      emailjs.init("YOUR_PUBLIC_KEY"); // 🔑 yaha apni public key daalo
+    (function() {
+      emailjs.init("z6Fwxuks2rRyQvi0K"); // ✅ PUBLIC KEY
     })();
 
     document.getElementById("contact-form").addEventListener("submit", function(event) {
       event.preventDefault();
 
       emailjs.sendForm(
-        "YOUR_SERVICE_ID",   // 🔧 Service ID
-        "YOUR_TEMPLATE_ID",  // 📨 Template ID
+        "service3l8qjxl",     // ✅ SERVICE ID
+        "TEMPLATE_7z6pjtw",    // ✅ TEMPLATE ID
         this
       ).then(function() {
         alert("Message sent successfully 👍");
