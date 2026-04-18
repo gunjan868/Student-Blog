@@ -31,6 +31,7 @@ nav a {
 .hero {
   text-align: center;
   padding: 40px;
+  background: #eaeef3;
 }
 
 /* Cards */
@@ -38,8 +39,7 @@ nav a {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 20px;
-  flex-wrap: wrap;
+  padding: 20px; 
 }
 
 .card {
@@ -49,6 +49,17 @@ nav a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  display: block;
 }
 
 /* Articles */
