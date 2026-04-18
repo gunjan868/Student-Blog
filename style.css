@@ -1,59 +1,66 @@
 body {
-  font-family: Arial;
+  font-family: 'Segoe UI', Arial;
   margin: 0;
   background: #f4f7ff;
   color: #333;
 }
 
+/* Header */
 header {
   background: linear-gradient(90deg, #4facfe, #00f2fe);
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 40px 20px;
 }
 
+/* Navbar */
 nav {
   background: white;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav a {
-  margin: 10px;
+  margin: 15px;
   text-decoration: none;
   color: #0077ff;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 nav a:hover {
   color: #ff6600;
 }
 
+/* Hero */
 .hero {
   text-align: center;
-  padding: 40px;
+  padding: 50px 20px;
   background: #eaeef3;
 }
 
+/* Cards */
 .cards {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 25px;
+  padding: 30px;
+  flex-wrap: wrap;
 }
 
 .card {
   background: white;
-  padding: 20px;
-  width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 25px;
+  width: 230px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   text-align: center;
   transition: 0.3s;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-10px);
 }
 
 .card a {
@@ -62,17 +69,19 @@ nav a:hover {
   display: block;
 }
 
-.article-list {
-  padding: 20px;
-}
-
+/* Articles */
 .article {
   background: white;
-  margin: 10px auto;
-  padding: 15px;
+  margin: 20px auto;
+  padding: 20px;
   width: 80%;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.article:hover {
+  transform: scale(1.02);
 }
 
 .article a {
@@ -81,21 +90,18 @@ nav a:hover {
   display: block;
 }
 
-.article:hover {
-  transform: scale(1.02);
-  transition: 0.3s;
-}
-
+/* Main content */
 main {
-  padding: 20px;
+  padding: 25px;
   max-width: 800px;
   margin: auto;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
   background: #4facfe;
   color: white;
-  margin-top: 20px;
+  margin-top: 30px;
 }
