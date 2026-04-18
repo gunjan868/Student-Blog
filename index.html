@@ -15,11 +15,15 @@
 <nav>
   <a href="index.html">Home</a>
   <a href="articles.html">Articles</a>
+  <button onclick="toggleDark()">🌙 Dark Mode</button>
 </nav>
 
 <section class="hero">
   <h2>Welcome Students 👋</h2>
   <p>Yahan tumhe milenge study tips, motivation aur exam hacks.</p>
+
+  <!-- 🔍 Search -->
+  <input type="text" placeholder="Search articles..." class="search">
 </section>
 
 <section class="cards">
@@ -50,6 +54,13 @@
 <footer>
   <p>© 2026 Student Blog | Made by Gunjan 💖</p>
 </footer>
+
+<!-- 🔥 Dark Mode Script -->
+<script>
+function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+</script>
 
 </body>
 </html>
